@@ -12,14 +12,6 @@
 
 #include "./include/lib.h"
 
-//missing: 1)open all(in order to load all sprites)
-//				as well as all the single functions for each game element
-//			 2)mlx_loop_hook(to draw everything, INPUT-INDEPENDENT)
-//			 3)mlx_key_hook(to trigger events on key press)
-//			 3.5)mlx_hook(almost the same as mlx_key_hook)
-//			 4)mlx_loop(to keep everything running and wait for
-//				inputs/key press)
-//			 5)DO WE WANT TO IMPLEMENT ENEMY AI??
 int	end_game(t_game *game)
 {
 	mlx_destroy_window(game->mlx, game->mlx_win);
