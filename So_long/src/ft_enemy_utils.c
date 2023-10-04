@@ -12,7 +12,7 @@
 
 #include "../include/lib.h"
 
-//currently not using any of this functions
+//currently not using this
 char	*ft_strchr(char *s, int c)
 {
 	while (*s != '\0')
@@ -25,33 +25,3 @@ char	*ft_strchr(char *s, int c)
 		return ((char *)s);
 	return (NULL);
 }
-
-// int	**enemy_new_coords(t_game *game)
-// {
-// 	int	x;
-// 	int	y;
-// 	int	**enc;
-// 	int	b;
-
-// 	b = 0;
-// 	y = 0;
-// 	enc = (int **)malloc(sizeof(int) * (game->enemy_number));
-// 	if (!enc)
-// 		return (NULL);
-// 	while (y < game->dimensions.map_height)
-// 	{
-// 		x = 0;
-// 		while (x < game->dimensions.map_lenght)
-// 		{
-// 			if (game->dimensions.map_matrix[y][x] == 'M')
-// 			{
-// 				enc[0][b] = x;
-// 				enc[1][b] = y;
-// 				b++;
-// 			}
-// 			x++;
-// 		}
-// 		y++;
-// 	}
-// 	return (enc);
-// }
