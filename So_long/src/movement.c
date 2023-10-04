@@ -81,9 +81,6 @@ void	move_player_aux(t_game *game, int key)
 	}
 }
 
-//might consider adding something after the move_player_aux call
-//in order to consider the consequences of the move(like replacing a coll
-// sprite or displaying "level cleared"etc etc).
 void	move_player(t_game *game, int key)
 {
 	int		c;
