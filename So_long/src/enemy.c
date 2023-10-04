@@ -19,14 +19,6 @@ void	open_enemy_imgs(t_game *game)
 			&game->img_size.img_width, &game->img_size.img_height);
 }
 
-//Writing down this just çause it might be usefule later, eventually...
-// if You want to run an animation, just exec the next commented lines in the
-// *****_anim function
-// 	else if (game->enemy.frame_count == 75)
-// 		game->enemy_mesh = game->enemy.e_frame2;
-// 	else if (game->enemy.frame_count == 90)
-// 		game->enemy_mesh = game->enemy.e_frame3;
-// 	ETC ETC ETC
 void	enemy_anim(t_game *game, int j, int i)
 {
 	game->enemy_mesh = game->enemy.e_frame1;
