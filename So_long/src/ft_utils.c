@@ -60,11 +60,6 @@ char	*ft_strjoin(char *str1, char *str2)
 	return (new);
 }
 
-//If You are not satisfied with this number of outputs, or if it turns out
-//to be too long for norminetter might as well
-//consider creating and initializing a char **error_outputs(strings matrix)
-//inside an ft_display_error_HELPER, then call it inside this function;
-//Yeah, I know, You are welcome;
 void	ft_display_error(int error_type)
 {
 	if (error_type == 0)
