@@ -23,8 +23,7 @@ void	open_all_sources(t_game *game)
 }
 
 //checks correct number of args and correct file extension of the last
-//argument;ft_display_error currently outputting 5 different Errors,
-//go read the comment a wise man wrote before its definition.
+//argument; ft_display_error currently outputting 5 different Errors,
 void	check_arg_ber(int argc, char **argv)
 {
 	int	i;
